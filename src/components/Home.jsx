@@ -18,7 +18,7 @@ const Home = () => {
                         bg-gradient-to-r from-cyan-500 to-blue-500 text-center text-xl 
                         rounded-md cursor-pointer'
                         >
-                            Portfolio
+                            Resume
                             <span className='group-hover:rotate-90 duration-300'>
                                 <BsArrowRight size={20}/>
                             </span>
