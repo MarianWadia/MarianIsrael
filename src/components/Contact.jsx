@@ -15,6 +15,7 @@ const Contact = () => {
                         name="name" 
                         placeholder="Enter Your Name" 
                         className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                        required
                     />
 
                     <input 
@@ -22,13 +23,16 @@ const Contact = () => {
                         name="email" 
                         placeholder="Enter Your Email"  
                         className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                        required
                     />
 
                     <textarea 
                         name="message" 
                         rows={10}
                         placeholder="Enter Your Message Here"  
-                        className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none">
+                        className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                        required                        
+                        >
                     </textarea>
                     <button className="text-white 
                         bg-gradient-to-b from-cyan-500 to-blue-500 px-3 sm:px-6 py-3 my-8 mx-auto flex items-center 
