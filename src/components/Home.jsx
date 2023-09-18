@@ -1,12 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Link } from 'react-scroll'
 import HeroImage from '../assets/personal_picture-removebg.png'
 import { BsArrowRight } from "react-icons/bs"
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-gray-800'>
-        <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row gap-10'>
+    <div name="home" className='w-full bg-gradient-to-b from-black to-gray-800 md:h-screen'>
+        <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 gap-3 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='font-bold text-4xl sm:text-7xl text-white'>I'm a Full Stack Developer</h2>
+                <h2 className='font-bold text-4xl sm:text-7xl text-white pt-24'>I'm a Full Stack Developer</h2>
                 <p className='text-gray-500 p-4 text-sm'>I am a dedicated junior full stack developer with proficiency in JavaScript, React.js, Node.js, Express, PostgreSQL,
                     NoSQL databases (e.g., MongoDB), and various programming languages (PHP, C++, Python). Experienced in Git version
                     control and agile methodologies. Passionate about expanding my tech stack, with strong problem-solving skills. Thrive
@@ -15,15 +16,18 @@ const Home = () => {
                     furthering my career as a software developer.
                 </p>
                 <div>
-                    <button className='group flex flex-row justify-center items-center gap-2 w-fit px-6 py-3 my-2 text-white 
+                    <Link 
+                        to='portfolio' 
+                        smooth duration={500}  
+                        className='group flex flex-row justify-center items-center gap-2 w-fit px-6 py-3 my-2 text-white 
                         bg-gradient-to-r from-cyan-500 to-blue-500 text-center text-xl 
                         rounded-md cursor-pointer'
                         >
-                            Resume
+                            Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <BsArrowRight size={20}/>
                             </span>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div>

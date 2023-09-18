@@ -6,7 +6,7 @@ const About = () => {
             <div className="pb-8">
                 <h3 className="border-b-4 border-gray-500 inline text-4xl">About</h3>
             </div>
-            <p className="text-l mt-10">
+            <p className="text-sm mt-0 md:text-l">
             I am a hardworking junior full-stack developer with experience in both front-end and back-end development. I have expertise in HTML,
             CSS, JavaScript, React.js, and Next.js for building responsive and user-friendly web interfaces. On the back end, 
             I have worked with Node.js, Express, and PostgreSQL to develop RESTful APIs and manage databases. 
