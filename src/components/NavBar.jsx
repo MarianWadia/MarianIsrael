@@ -5,7 +5,6 @@ import { Link } from 'react-scroll'
 const NavBar = () => {
     const [nav, setNav] = useState(false)
     const [navLinks, setNavLinks] = useState(false)
-    const [hidden, setHidden] = useState(false);
     const links = [
         {
             id: 1,
