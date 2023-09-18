@@ -58,7 +58,7 @@ const Experience = () => {
                 <h5 className="py-6">These are the Technologies I have worked with...</h5>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-10 sm:px-0">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0">
                 {technologies.map((technology)=>(
                     <div key={technology.id} className={`shadow-md hover:scale-105 duration-500 rounded-lg py-2 ${technology.style}`}>
                         <img src={technology.src} alt="" className="w-20 mx-auto" />

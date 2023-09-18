@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import HeroImage from '../assets/personal_picture-removebg.png'
 import { BsArrowRight } from "react-icons/bs"
 const Home = () => {

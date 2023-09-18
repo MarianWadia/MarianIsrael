@@ -59,8 +59,8 @@ const Portfolio = () => {
                         <img src={portfolio.src} alt="" 
                             className="rounded-md duration-500 hover:scale-105"/>
                         <div className="flex items-center justify-between">
-                            <button onClick= {()=>onButtonClick(portfolio.demoLink)} className="w-1/2 duration-500 hover:bg-slate-500 p-4">Demo Link</button>
-                            <button onClick= {()=>onButtonClick(portfolio.codeLink)} className="w-1/2 duration-500 hover:bg-slate-500 p-4">Code</button>
+                            <button onClick= {()=>onButtonClick(portfolio.demoLink)} className="w-1/2 duration-00 hover:bg-slate-500 p-4">Demo Link</button>
+                            <button onClick= {()=>onButtonClick(portfolio.codeLink)} className="w-1/2 duration-00 hover:bg-slate-500 p-4">Code</button>
                         </div>
                     </div>
                 ))}
