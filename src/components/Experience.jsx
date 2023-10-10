@@ -3,52 +3,59 @@ const Experience = () => {
     const technologies =[
         {
             id: 1,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://th.bing.com/th/id/R.04c5f18749c6a1c64b65f6d8f26d7b53?rik=EJMkD%2f1AqNvvQQ&pid=ImgRaw&r=0",
             title: "JavaScript",
             style: "shadow-yellow-500"
         },
         {
             id: 2,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://th.bing.com/th/id/OIP.hqYnvXqWahIvRBZKsrRF5wHaHa?pid=ImgDet&rs=1",
             title: "TypeScript",
             style: "shadow-blue-500"
         },
         {
             id: 3,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://th.bing.com/th/id/R.c3ba82a536fe4983dad4c06b578dcd5d?rik=F2s%2bS%2fWmkU2dew&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f584830f5cef1014c0b5e4aa1.png&ehk=nr30%2foGRF6ObcWbuK6%2b%2bzHxe3w8Jb0cawQ6zBp1sH3E%3d&risl=&pid=ImgRaw&r=0",
             title: "ReactJS",
             style: "shadow-blue-600"
         },
         {
             id: 4,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Next.js-900x0.png",
             title: "NextJS",
             style: "shadow-white"
         },
         {
             id: 5,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
             title: "NodeJS",
             style: "shadow-green-500"
         },
         {
             id: 6,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://files.raycast.com/sjxs3pxsc6k63ju0fzv8l3cu4v90",
             title: "TailwindCSS",
             style: "shadow-sky-400"
         },
         {
             id: 7,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
+            src: "https://cdn.iconscout.com/icon/free/png-256/free-mongodb-5-1175140.png",
+            title: "MongoDB",
+            style: "shadow-green-400"
+        },
+        {
+            id: 8,
+            src: "https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png",
             title: "PostgreSQL",
             style: "shadow-blue-500"
         },
         {
-            id: 8,
-            src: "https://www.coscreen.co/content/images/size/w600/2021/04/test.jpg",
-            title: "GitHub",
-            style: "shadow-gray-400"
+            id: 9,
+            src: "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/800px-Logo_jasmine.svg.png",
+            title: "Jasmine",
+            style: "shadow-violet-400"
         }
+
     ]
   return (
     <div name="experience" className="w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen lg:h-auto sm:h-auto">

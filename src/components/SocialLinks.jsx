@@ -8,7 +8,7 @@ const SocialLinks = () => {
         <ul>
             <li className='bg-gray-500 w-36 h-12 flex justify-center items-center px-4 ml-[-100px] 
                 hover:rounded-md duration-300 hover:ml-[-10px]'>
-                <a href="https://www.linkedin.com/in/marian-israel-205605219/" target="_blank" 
+                <a href="https://www.linkedin.com/in/marian-wadia-205605219/" target="_blank" 
                     className='flex flex-row justify-between items-center text-white w-full' rel="noreferrer"
                 >
                     <span className='font-bold'>LinkedIn</span>
@@ -31,7 +31,7 @@ const SocialLinks = () => {
             </li>
             <li className='bg-gray-500 w-36 h-12 flex justify-center items-center px-4 ml-[-100px] 
                 hover:rounded-md duration-300 hover:ml-[-10px]'>
-                <a href='/MarianIsrael.pdf' download={true} className='flex flex-row justify-between items-center text-white w-full'>
+                <a href='/MarianWadia.pdf' download={true} className='flex flex-row justify-between items-center text-white w-full'>
                     <span className='font-bold'>Resume</span>
                     <BsFillPersonLinesFill size={25}/>
                 </a>
