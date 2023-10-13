@@ -2,6 +2,7 @@
 import { Link } from 'react-scroll'
 import HeroImage from '../assets/personal_picture-removebg.png'
 import { BsArrowRight } from "react-icons/bs"
+import SocialLinks from './SocialLinks'
 const Home = () => {
   return (
     <div name="home" className='w-full bg-gradient-to-b from-black to-gray-800 md:h-screen'>
@@ -32,6 +33,7 @@ const Home = () => {
             </div>
             <div>
                 <img src={HeroImage} alt="" className='rounded-2xl mx-auto w-2/3 bg-blue-200 md:w-full'/>
+                <SocialLinks />
             </div>
         </div>
     </div>
