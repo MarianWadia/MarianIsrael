@@ -30,6 +30,12 @@ const Portfolio = () => {
             codeLink: "https://github.com/MarianWadia/Delicious-RecipeApp"
         },
         {
+            id: 7,
+            src: carcoach,
+            demoLink: "https://car-coach-grad-project.vercel.app/",
+            codeLink: "https://github.com/MarianWadia/CarCoach-GradProject"
+        },
+        {
             id: 5,
             src: "https://media.licdn.com/dms/image/sync/D4D27AQHv8OqGfIREUw/articleshare-shrink_800/0/1696520199290?e=1697572800&v=beta&t=Y5GTupzdMoKiXANvY6SPTFn3DLIsnTIKqMJWKzSuuj4",
             codeLink: "https://github.com/MarianWadia/Udacity-1st-Image-processing-api"
@@ -38,11 +44,6 @@ const Portfolio = () => {
             id: 6,
             src: "https://media.licdn.com/dms/image/sync/D4D27AQFqrAxn5T_yTA/articleshare-shrink_800/0/1696350703516?e=1697572800&v=beta&t=31aAZbaL53D9CwJ0x93aouemowHGrBuSqV9Kmf-e6Tk",
             codeLink: "https://github.com/MarianWadia/Udacity-storefrontApi"
-        },
-        {
-            id: 7,
-            src: carcoach,
-            codeLink: "https://github.com/MarianWadia/CarCoach-GradProject"
         },
         {
             id: 8,
