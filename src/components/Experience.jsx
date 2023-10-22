@@ -1,4 +1,4 @@
-
+// import nextjs from "../assets/nextjs.jpg"
 const Experience = () => {
     const technologies =[
         {
@@ -21,9 +21,21 @@ const Experience = () => {
         },
         {
             id: 4,
-            src: "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Next.js-900x0.png",
+            src: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147555239/settings_images/f6Qt8KO1SLih4Fj63w7u_DIFc2C0QeiDwUdfRMygI_React_Native_101.png",
+            title: "ReactNative",
+            style: "shadow-sky-400"
+        },
+        {
+            id: 4,
+            src: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3244252/nextjs-icon-md.png",
             title: "NextJS",
             style: "shadow-white"
+        },
+        {
+            id: 4,
+            src: "https://cdn.freebiesupply.com/logos/large/2x/angular-icon-logo-png-transparent.png",
+            title: "Angular",
+            style: "shadow-red-600"
         },
         {
             id: 5,
