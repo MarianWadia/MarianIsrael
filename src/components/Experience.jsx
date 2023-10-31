@@ -63,6 +63,12 @@ const Experience = () => {
         },
         {
             id: 9,
+            src: "https://th.bing.com/th/id/R.c521e7e67222276a6860665a46813cc6?rik=AoUIOAvVTiB1cQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ffirebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png&ehk=YpYeUgKU5BtUZmTIpsZiQ5pFGAOc5w0Xm5klm2orTIg%3d&risl=&pid=ImgRaw&r=0",
+            title: "Firebase",
+            style: "shadow-yellow-500"
+        },
+        {
+            id: 10,
             src: "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/800px-Logo_jasmine.svg.png",
             title: "Jasmine",
             style: "shadow-violet-400"
