@@ -41,7 +41,7 @@ const Portfolio = () => {
         {
             id: 6,
             src: FireGramApp,
-            demoLink: "https://galleryapp-65683.web.app/",
+            demoLink: "https://galleryapp-378c8.web.app/",
             codeLink: "https://github.com/MarianWadia/FireGramApp"
         },
         {
