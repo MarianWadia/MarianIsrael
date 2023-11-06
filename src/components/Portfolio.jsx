@@ -4,6 +4,7 @@ import delicousApp from "../assets/delicousApp.png"
 import carcoach from "../assets/carcoach.png"
 import imageApi from "../assets/image-api.png"
 import storefrontApi from "../assets/storefrontapi.png"
+import FireGramApp from "../assets/fireGramApp.png"
  
 const Portfolio = () => {
     const portfolios =[
@@ -32,23 +33,29 @@ const Portfolio = () => {
             codeLink: "https://github.com/MarianWadia/Delicious-RecipeApp"
         },
         {
-            id: 7,
+            id: 5,
             src: carcoach,
             demoLink: "https://car-coach-grad-project.vercel.app/",
             codeLink: "https://github.com/MarianWadia/CarCoach-GradProject"
         },
         {
-            id: 5,
+            id: 6,
+            src: FireGramApp,
+            demoLink: "https://galleryapp-65683.web.app/",
+            codeLink: "https://github.com/MarianWadia/FireGramApp"
+        },
+        {
+            id: 7,
             src: imageApi,
             codeLink: "https://github.com/MarianWadia/Udacity-1st-Image-processing-api"
         },
         {
-            id: 6,
+            id: 8,
             src: storefrontApi,
             codeLink: "https://github.com/MarianWadia/Udacity-storefrontApi"
         },
         {
-            id: 8,
+            id: 9,
             src: "https://github.com/MarianWadia/HostingFullstackApp/raw/master/DOCUMENTS/screenshots/circleci-success.png",
             codeLink: "https://github.com/MarianWadia/HostingFullstackApp"
         }
