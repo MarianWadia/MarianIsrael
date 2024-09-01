@@ -1,61 +1,75 @@
 import RealEstates from "../assets/Picture2.png"
 import quizApp from "../assets/quizapp1.png"
-import delicousApp from "../assets/delicousApp.png"
+// import delicousApp from "../assets/delicousApp.png"
 import carcoach from "../assets/carcoach.png"
 import imageApi from "../assets/image-api.png"
 import storefrontApi from "../assets/storefrontapi.png"
 import FireGramApp from "../assets/fireGramApp.png"
- 
+import Twitter from "../assets/twitter.png"
+import ChatApp from "../assets/chat-app.png"
+
 const Portfolio = () => {
     const portfolios =[
         {
             id: 1,
+            src: ChatApp,
+            demoLink: "https://realtime-chat-app-alpha-flax.vercel.app",
+            codeLink: "https://github.com/MarianWadia/TwitterCloneApp"
+        },
+        {
+            id: 2,
+            src: Twitter,
+            demoLink: "https://twitter-clone-app-eight.vercel.app",
+            codeLink: "https://github.com/MarianWadia/TwitterCloneApp"
+        },
+        {
+            id: 3,
             src: RealEstates,
             demoLink: "https://estate-explorer.vercel.app/",
             codeLink: "https://github.com/MarianWadia/EstateExplorer"
         },
         {
-            id: 2,
+            id: 4,
             src: "https://github.com/MarianWadia/TodoList-Firebase/raw/master/public/imgs/Screenshot%202023-04-23%20003549.png",
             demoLink: "https://todo-app-c5cdd.firebaseapp.com/",
             codeLink: "https://github.com/MarianWadia/TodoList-Firebase"
         },
         {
-            id: 3,
+            id: 5,
             src: quizApp,
             demoLink: "https://leafy-pika-52095f.netlify.app/",
             codeLink: "https://github.com/MarianWadia/QuizApp"
         },
+        // {
+        //     id: 6,
+        //     src: delicousApp,
+        //     demoLink: "https://delicious-reciepe-app.vercel.app/",
+        //     codeLink: "https://github.com/MarianWadia/Delicious-RecipeApp"
+        // },
         {
-            id: 4,
-            src: delicousApp,
-            demoLink: "https://delicious-reciepe-app.vercel.app/",
-            codeLink: "https://github.com/MarianWadia/Delicious-RecipeApp"
-        },
-        {
-            id: 5,
+            id: 6,
             src: carcoach,
             demoLink: "https://car-coach-grad-project.vercel.app/",
             codeLink: "https://github.com/MarianWadia/CarCoach-GradProject"
         },
         {
-            id: 6,
+            id: 7,
             src: FireGramApp,
             demoLink: "https://galleryapp-378c8.web.app/",
             codeLink: "https://github.com/MarianWadia/FireGramApp"
         },
         {
-            id: 7,
+            id: 8,
             src: imageApi,
             codeLink: "https://github.com/MarianWadia/Udacity-1st-Image-processing-api"
         },
         {
-            id: 8,
+            id: 9,
             src: storefrontApi,
             codeLink: "https://github.com/MarianWadia/Udacity-storefrontApi"
         },
         {
-            id: 9,
+            id: 10,
             src: "https://github.com/MarianWadia/HostingFullstackApp/raw/master/DOCUMENTS/screenshots/circleci-success.png",
             codeLink: "https://github.com/MarianWadia/HostingFullstackApp"
         }
